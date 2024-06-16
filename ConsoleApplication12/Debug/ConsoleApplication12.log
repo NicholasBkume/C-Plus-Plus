@@ -1,0 +1,19 @@
+﻿  stdafx.cpp
+  ConsoleApplication12.cpp
+c:\users\nicholas kume\source\repos\consoleapplication12\consoleapplication12\consoleapplication12.cpp(25): warning C4101: 'Easiness': unreferenced local variable
+c:\users\nicholas kume\source\repos\consoleapplication12\consoleapplication12\consoleapplication12.cpp(28): warning C4101: 'Clarity': unreferenced local variable
+c:\users\nicholas kume\source\repos\consoleapplication12\consoleapplication12\consoleapplication12.cpp(27): warning C4101: 'Friendliness': unreferenced local variable
+c:\users\nicholas kume\source\repos\consoleapplication12\consoleapplication12\consoleapplication12.cpp(26): warning C4101: 'Helpfulness': unreferenced local variable
+c:\users\nicholas kume\source\repos\consoleapplication12\consoleapplication12\consoleapplication12.cpp(36): error C2065: 'easiness': undeclared identifier
+c:\users\nicholas kume\source\repos\consoleapplication12\consoleapplication12\consoleapplication12.cpp(36): error C2065: 'helpfulness': undeclared identifier
+c:\users\nicholas kume\source\repos\consoleapplication12\consoleapplication12\consoleapplication12.cpp(36): error C2065: 'friendliness': undeclared identifier
+c:\users\nicholas kume\source\repos\consoleapplication12\consoleapplication12\consoleapplication12.cpp(36): error C2065: 'clarity': undeclared identifier
+c:\users\nicholas kume\source\repos\consoleapplication12\consoleapplication12\consoleapplication12.cpp(37): error C2562: 'ProfessorRating::print': 'void' function returning a value
+  c:\users\nicholas kume\source\repos\consoleapplication12\consoleapplication12\consoleapplication12.cpp(34): note: see declaration of 'ProfessorRating::print'
+c:\users\nicholas kume\source\repos\consoleapplication12\consoleapplication12\consoleapplication12.cpp(42): error C2082: redefinition of formal parameter 'easy'
+c:\users\nicholas kume\source\repos\consoleapplication12\consoleapplication12\consoleapplication12.cpp(42): error C2082: redefinition of formal parameter 'help'
+c:\users\nicholas kume\source\repos\consoleapplication12\consoleapplication12\consoleapplication12.cpp(42): error C2082: redefinition of formal parameter 'friendly'
+c:\users\nicholas kume\source\repos\consoleapplication12\consoleapplication12\consoleapplication12.cpp(42): error C2082: redefinition of formal parameter 'clear'
+  assignment_prf.cpp
+c:\users\nicholas kume\source\repos\consoleapplication12\consoleapplication12\assignment_prf.cpp(2): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  Generating Code...
