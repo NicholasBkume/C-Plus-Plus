@@ -1,0 +1,6 @@
+﻿  stdafx.cpp
+  ProfessorRating.cpp
+  main.cpp
+c:\users\nicholas kume\source\repos\consoleapplication13\consoleapplication13\main.cpp(53): warning C4129: 'A': unrecognized character escape sequence
+  Generating Code...
+  ConsoleApplication13.vcxproj -> C:\Users\Nicholas Kume\source\repos\ConsoleApplication13\Debug\ConsoleApplication13.exe
