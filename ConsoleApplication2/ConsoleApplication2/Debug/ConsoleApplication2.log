@@ -1,0 +1,5 @@
+﻿  stdafx.cpp
+  ConsoleApplication2.cpp
+c:\users\nicholas kume\source\repos\consoleapplication2\consoleapplication2\consoleapplication2.cpp(22): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\nicholas kume\source\repos\consoleapplication2\consoleapplication2\consoleapplication2.cpp(42): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  ConsoleApplication2.vcxproj -> C:\Users\Nicholas Kume\source\repos\ConsoleApplication2\Debug\ConsoleApplication2.exe
