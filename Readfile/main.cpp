@@ -14,11 +14,11 @@ int main()
 
   inFile.open("N_numbers.txt");
 
-  cout << "Reading from the File";
+  cout << "Reading from the File \n";
 
   while (inFile >> number) {
 
-    cout << " This is the data read : " << number << endl;
+    cout << "\n This is the data read : " << number << endl;
 
   }
 
