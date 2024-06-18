@@ -1,4 +1,4 @@
-#include "stdafx.h"
+
 #include "Package.h"
 #include <iostream>
 #include <string>
@@ -39,7 +39,7 @@ void Package::setSenderName(string sname) {
 	senderName = sname;
 
 }
-void Package::setSenderZip(int szip) {
+void Package::setSenderZip(string szip) {
 
 	senderZip = szip;
 }
@@ -75,7 +75,7 @@ string Package::getRecipientZip() {
 
 	return recipientZip;
 }
-//double calcCost() – returns the cost of the package (weightInOunce*costPerOunce) 
+//double calcCost() ï¿½ returns the cost of the package (weightInOunce*costPerOunce) 
 double Package::calcCost() {
 	double Cost;
 	Cost = weightInOunce * costPerOunce;
@@ -84,7 +84,7 @@ double Package::calcCost() {
 	return Cost;
 }
 
-//void print() – displays the package information including type of package, sender, recipient, weight, and cost. 
+//void print() ï¿½ displays the package information including type of package, sender, recipient, weight, and cost. 
 void Package::print() {
 	cout << senderName <<"n/"<< recipientName << "n/" << weightInOunce << "n/" << costPerOunce << endl;
 }
