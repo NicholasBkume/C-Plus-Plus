@@ -1,0 +1,6 @@
+﻿  stdafx.cpp
+  Nick_Program1.cpp
+  ConsoleApplication20.cpp
+  Generating Code...
+Nick_Program1.obj : error LNK2005: _main already defined in ConsoleApplication20.obj
+C:\Users\Nicholas Kume\source\repos\ConsoleApplication20\Debug\ConsoleApplication20.exe : fatal error LNK1169: one or more multiply defined symbols found
