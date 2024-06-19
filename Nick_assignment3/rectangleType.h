@@ -11,7 +11,8 @@ class rectangleType
 {
 /* Create a base class named rectangleType with following private data members:
 � length with double type
-� width with double type*/
+� width with double type
+*/
 private:
 	double length;
 	double width;
