@@ -1,0 +1,5 @@
+﻿  stdafx.cpp
+  Nick_assignment.cpp
+  add_on.cpp
+c:\users\nicholas kume\source\repos\nick_assignment\nick_assignment\add_on.cpp(30): error C3861: 'creat_array': identifier not found
+  Generating Code...
