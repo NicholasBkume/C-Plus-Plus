@@ -1,26 +1,67 @@
-This C++ code is a simple program that performs the following actions:
+# C++ Projects
 
-Includes necessary headers:
+A collection of C++ programs, programming exercises, and small projects developed while building practical skills in **C++ programming, object-oriented design, algorithms, data structures, file I/O, and console application development**.
 
-#include "stdafx.h": This is typically used in Visual Studio projects for precompiled headers to speed up compilation.
-#include <iostream>: This allows the program to use input and output streams (cin and cout).
-Defines the main function: The entry point of the program.
+## What this repository demonstrates
 
-Initializes variables:
+- Core C++ syntax and control flow
+- Functions, classes, and object-oriented programming
+- Arrays, strings, and data structures
+- Searching, sorting, and tree traversal exercises
+- File input/output
+- Console-based applications and games
+- Problem solving and algorithmic thinking
 
-int x = -500;: Initializes an integer variable x with the value -500.
-int num;: Declares an integer variable num.
-Executes a while loop:
+## Repository structure
 
-The loop condition is x <= 500, meaning the loop will continue as long as x is less than or equal to 500.
-Inside the loop:
-cout << "value is : " << x << endl;: Outputs the current value of x to the console.
-x = x + 100;: Increments the value of x by 100.
-Reads an integer input from the user:
+The repository contains multiple independent C++ programs and exercises rather than one single application. Projects are organized around the concepts they demonstrate.
 
-cin >> num;: Waits for the user to input an integer and assigns it to the variable num. This line essentially pauses the program to allow the user to see the output before it terminates.
-Returns 0:
+```text
+C-Plus-Plus/
+├── C++ side projects/     # Independent programs and experiments
+├── *.cpp                  # C++ source files and exercises
+└── README.md
+```
 
-return 0;: Indicates that the program executed successfully.
-Summary
-This program initializes a variable x to -500 and then enters a while loop that increments x by 100 on each iteration. It prints the value of x during each iteration. The loop continues until x exceeds 500. After the loop, the program waits for the user to enter an integer before terminating.
+> File and folder names may vary as the collection evolves.
+
+## Getting started
+
+### Requirements
+
+- A C++ compiler such as **MSVC**, **GCC**, or **Clang**
+- A C++ development environment such as Visual Studio, VS Code, or CLion
+
+### Compile with GCC/Clang
+
+```bash
+g++ path/to/program.cpp -std=c++17 -o program
+./program
+```
+
+For a Windows executable:
+
+```bash
+g++ path/to/program.cpp -std=c++17 -o program.exe
+program.exe
+```
+
+Some older Visual Studio projects may contain Microsoft-specific headers or project configuration. Those programs are best opened and built with the corresponding Visual Studio environment.
+
+## Example topics
+
+The collection includes exercises involving **binary-tree traversal**, console applications, file I/O, and other programming fundamentals.
+
+## Learning goals
+
+This repository serves as a working record of C++ development and focuses on turning programming concepts into executable programs. It is also a foundation for developing larger C++ applications with stronger architecture, testing, and performance requirements.
+
+## Author
+
+**Nicholas Kume**
+
+GitHub: [@NicholasBkume](https://github.com/NicholasBkume)
+
+## License
+
+Unless otherwise specified, the code in this repository is provided for educational and portfolio purposes.
